@@ -1,0 +1,99 @@
+<html>
+	
+	<head>
+		
+		<style>
+		body {background-color: #f5f5dc;}
+
+	div {
+		width: 100px;
+		height: 100px;
+		border:1px solid black;
+		position: relative;
+		-webkit-animation-duration: 6s;
+		-webkit-animation-name: moving;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: normal;
+
+/* for firefox you need moz */
+		-moz-animation-duration: 6s;
+		-moz-animation-name: moving;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-direction: normal;
+	}
+
+
+	@-webkit-keyframes moving {
+		from {
+			left: 100px;
+			top: 400px;
+			background-color: blue;
+		}
+
+		25% {
+			left: 650px;
+			top: 400px;
+			background-color: red;
+		}
+
+		50% {
+			left: 650px;
+			top: 100px;
+			background-color: orange;
+		}
+
+		75% {
+			left: 100px;
+			top: 100px;
+			background-color: green;
+		}
+
+		to {
+			left: 100px;
+			top: 400px;
+			background-color: blue;
+		}
+
+	}
+
+       @-moz-keyframes moving {
+		from {
+			left: 100px;
+			top: 400px;
+			background-color: blue;
+		}
+
+		25% {
+			left: 650px;
+			top: 400px;
+			background-color: red;
+		}
+
+		50% {
+			left: 650px;
+			top: 100px;
+			background-color: orange;
+		}
+
+		75% {
+			left: 100px;
+			top: 100px;
+			background-color: green;
+		}
+
+		to {
+			left: 100px;
+			top: 400px;
+			background-color: blue;
+		}
+
+	}
+
+	</style>
+</head>
+
+
+	<body>
+		<div></div>
+	</body>
+</html>

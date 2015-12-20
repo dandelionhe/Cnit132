@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Design portfolio html css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Embedded Style Sheet</title>
+        
+        <style type="text/css">
+        /*-----General-------*/
+        body{
+            background:#aa6;
+            
+
+
+        }
+        .container{
+            width:950px;
+            margin:0 auto;
+            padding: 10px;
+
+
+        }
+
+        /*-----Navigation---------*/
+        
+        nav ul{
+            float:left;
+            list-style: none;
+            padding-left: 130px;
+        }
+        nav ul li{
+            float:left;
+            padding:10px;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            border:1px dashed black;
+            border-bottom: none;
+           
+            padding: 7px 5px 2px 30px;
+            background:#E7E7E7 url(../Images/link.png) no-repeat left center;            
+        }
+
+        nav a:hover{
+            font-weight: bold;
+            background:#B2F511 url(../Images/go.png) no-repeat 5px 50%;
+        }
+        #homelink{
+            background:#E7E7E7 url(../Images/home.png) no-repeat left center;
+        }
+
+        /*---------Body------------*/
+        /*----fonts-------------*/
+       h1{
+            font-family: times,serif;
+            font-size: 24pt;
+            color: #0B39AD;
+            text-align: center;
+       }
+
+       h2{
+            font-family: arial,sans-serif;
+            font-size: 16pt;
+            color:#FFAC64;
+            text-align: left;
+       }
+
+       h3{
+            font-family: helvetica,sans-serif;
+            color:#FFD500;
+            text-align: right;
+
+       }
+
+       h4{
+            font-family: courier,monospace;
+            color: #0B39AD;
+            text-align: center;
+
+       }
+
+       h5{
+            font-family: times,serif;
+            color: #0B39AD;
+            text-align: center;
+       }
+
+       .subtitle{
+        font-family: times,serif;
+        text-align: center;
+        font-size: 20pt; 
+       }
+       p{
+            font-family: times,serif;
+            font-size: 12pt;
+            line-height: 150%;
+       }
+
+       .left{
+        text-align: left;
+        text-indent: .6in;
+        
+       }
+
+       .right{
+        text-align: right;
+        border:2px dashed black;
+        padding:15px;
+        background:#777;
+        
+       }
+
+       .ital{
+        font-style: italic;
+        text-align: justify;
+        
+       }
+
+       .new{
+        text-align: justify;
+        text-indent: .6in;
+        border-bottom: 5px solid #092C84;
+
+       }
+        
+        footer{
+            text-align: center;
+        }  
+            
+        </style>
+        
+    </head>
+    <body>
+        <nav class="container">
+            <ul>
+                <li><a href="homework2.html" id="homelink">Embedded Style Sheet</a></li>
+                <li><a href="link.html">Linked Style Sheet</a></li>
+                <li><a href="inline.html">Inline Style Sheet</a></li>
+                <li><a href="extra.html">Extra Credit</a></li>
+            </ul>
+        </nav>
+
+        <section class="container">
+
+            <br>
+            <br>
+
+            <h1>Embedded Style Sheet Example</h1>
+
+
+            <p class='subtitle'>The politics of the 21st century</p>
+
+            <h2>Lefties and Righties</h2>
+
+
+            <p class='left'>
+
+            Socialists are to the left of liberals.
+             Most liberals are Democrats, although some have
+            wandered over to the Green party. Republicans are right-wingers. 
+            Most Republicans are 
+            conservative. What does conservative mean? Do they want to
+            conserve the environment? Do they want to conserve the 2nd amendment?
+            Do they want to conserve a woman's right to choose an abortion?
+             Do they want to conserve a separation between church and state?
+
+            <a href="http://www.microsoft.com/">Click here</a>
+            for Bill Gates.</p>
+
+
+            <h3>Women and Men  (Satire)</h3>
+
+            <p class='right'>
+
+            Women have been called dames, broads, chicks, 
+            and foxes. They are supposed to be good at nurturing, child-rearing, 
+            and catering to men. They always seem to lose their keys and they want
+             their men to be macho, adventurous, brave, and handsome. They love
+            hunks. Men are good in math and engineering and like the sport of
+            one-upmanship. Men 
+            love sports and mowing lawns. They are good at fixing
+             clogged drains, but they hate cleaning
+             the bathroom.
+            <a href="http://www.sfgiants.com/">Click here</a> for your 
+            San Francisco Giants!
+            </p>
+
+            <h4>Personal Responsibility</h4>
+
+            <p class='ital'>
+            The name of the game is personal responsibility. That means that you
+             just need to take care of yourself and not
+             care about things like community involvement, poor people, or 
+             the obscene gap between the rich and poor in this country.
+            </p>
+
+            <h5>New Paragraph</h5>
+            <p class='new'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+        </section>
+
+        <footer class='container'>
+            <a href="mailto:hyongzhe@mail.ccsf.edu">Email Me</a>
+            <a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px" src="../Images/html5.gif" alt="HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
+            <br>
+            <script type="text/javascript">
+                var dateModified = document.lastModified;
+                mydate = dateModified.slice(0,16);
+                document.write("Last updated: " + mydate);
+            </script>
+        </footer>
+    </body>
+</html>

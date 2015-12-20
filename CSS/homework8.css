@@ -1,0 +1,73 @@
+/*-------General------------*/
+.container{
+	width:75%;
+	margin:0 auto;
+
+}
+body{
+	background:#eee;
+	background-image: URL('http://fog.ccsf.cc.ca.us/~srubin/edgeback.jpg');
+  	background-repeat: repeat-x;
+  	background-position: top;
+}
+
+/*-------Nav list----------*/
+.nav-list{
+	list-style: none;
+	float:left;
+	margin-left: 30%;
+}
+.nav-list li{
+	float: left;
+	margin-left: 15px;
+	background: #55AA55;
+
+}
+.nav-list li a {
+	text-decoration:none; 
+}
+.nav-list li a:hover{
+	font-size: 20pt;
+	background:#D46A6A;
+}
+.sublist{
+	list-style: none;
+	float:left;
+	margin-left: 40%;
+}
+.sublist li{
+	float:left;
+	margin-left: 15px;
+}
+/*------Paragraph--------*/
+
+a:hover{
+	font-size: 24pt;
+	background:#FF3100;
+}
+/*-----------Button----------*/
+.hw{
+	background:#6FF400;
+
+}
+
+#nifty{ position: absolute; top: 120px; left: 350px;
+background: #fff;}
+
+b.rtop, b.rbottom{display:block;background: #deb887}
+b.rtop b, b.rbottom b{display:block;height: 1px;
+    overflow: hidden; background: #fff}
+.r1{margin: 0 5px}
+.r2{margin: 0 3px}
+.r3{margin: 0 2px}
+.rtop .r4, .rbottom .r4{margin: 0 1px;height: 2px}
+
+/*--------Footer----------*/
+footer{
+	position: absolute;
+	width:75%;
+	top: 90%;
+	margin-left: 40%;
+	margin-top: 20px;
+}
+

@@ -1,0 +1,115 @@
+/*-----General-------*/
+        body{
+            background:#aa6;
+        }
+        .container{
+            width:950px;
+            margin:0 auto;
+            padding: 5px;
+            line-height: 150%;
+        }
+
+/*-----Navigation---------*/
+        
+        nav ul{
+            float:left;
+            list-style: none;
+            padding-left: 130px;
+        }
+        nav ul li{
+            display: inline;
+            padding:10px;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            border:1px dashed black;
+            border-bottom: none;
+           
+            padding: 7px 5px 2px 30px;
+            background:#E7E7E7 url(../Images/link.png) no-repeat left center;            
+        }
+
+        nav a:hover{
+            font-weight: bold;
+            background:#B2F511 url(../Images/go.png) no-repeat 5px 50%;
+        }
+        #homelink{
+            background:#E7E7E7 url(../Images/home.png) no-repeat left center;
+        }
+/*---------Body-------------*/
+h2{
+    background:url(../Images/texture.png) repeat center;
+    font-family: times, serif;
+    font-size: 24pt;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main{
+    background-color: #3F6AD5;
+    font-family: courier, monospace;
+    color:#FFAC64;
+    margin:10px;
+    padding:10px;
+    border:1px dashed black;
+    text-align: left;
+    text-indent: .6in;
+}
+
+.main a{
+    color:#a020f0;
+    text-decoration: none;
+}
+
+.main a:hover{
+    color:#8f0052;
+    background-color: yellow;
+
+}
+#new{
+    font-family: 'lucida handwriting';
+    line-height: 200%;
+    margin-left: 200px;
+    padding: 10px;
+    width:500px;
+    text-align: justify;
+    text-indent: .6in;
+    border:1px dashed black;
+}
+
+.lil {
+font-size: 10pt;
+text-align: center;
+font-weight: bold;
+margin-left: 280px;
+margin-right: 280px;
+color: #a020f0;
+background: #FFE564;
+}
+
+.new{
+    font-size: 16pt;
+    text-align: justify;
+    margin-left: 280px;
+    margin-right: 280px;
+    color:#FFAC64;
+    background-color: #6587DD;
+    text-indent: .6in;
+}
+address{
+    font-family:Arial, sans-serif;
+    font-size: 16pt;
+    text-align: left;
+
+}
+
+
+/*--------footer--------*/
+footer{
+    text-align: center;
+}
+
+
+

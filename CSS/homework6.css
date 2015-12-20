@@ -1,0 +1,142 @@
+
+
+/*-------General------------*/
+.container{
+	width:75%;
+	margin:0 auto;
+	
+}
+body{
+	background:#eee;
+	background-image: URL('http://fog.ccsf.cc.ca.us/~srubin/edgeback.jpg');
+  	background-repeat: repeat-x;
+  	background-position: top;
+}
+/*-------Nav list----------*/
+.nav-list{
+	list-style: none;
+	float:left;
+	margin-left: 30%;
+}
+.nav-list li{
+	float: left;
+	margin-left: 15px;
+	background: #55AA55;
+
+}
+.nav-list li a {
+	text-decoration:none; 
+}
+
+.nav-list li a:hover{
+	font-size: 20pt;
+	background:#D46A6A;
+}
+
+/*-------Content------------*/
+.title{
+	position:absolute;
+	left:40%;
+	top:10%;
+	z-index: 30;
+	color:#000;
+	font-size: 3em;
+
+}
+.titleshadow{
+	position: absolute;
+	left:42%;
+	top:11%;
+	color:lightblue;
+	z-index: 20;
+	font-size: 3em;
+}
+
+/*------Table-------------*/
+table{
+	border:1px solid;
+	
+}
+
+td{
+	border:1px solid;
+	text-align: center;
+}
+.tableheader{
+	background:#FF3100;
+}
+#firsttable{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	width:30%;
+}
+#secondtable{
+	position: absolute;
+	top: 20%;
+	left: 65%;
+	width:30%;
+}
+
+/*------Paragraph--------*/
+#firstpara{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	width:30%;
+	background:#FF8366;
+	margin: 1px;
+}
+#seconpara{
+	position: absolute;
+	top: 35%;
+	left: 65%;
+	width:30%;
+	background:#FF8366;
+	margin: 1px;
+}
+a:hover{
+	font-size: 24pt;
+	background:#FF3100;
+}
+
+
+#box{
+	position: absolute;
+	top: 17%;
+	left: 46%;
+	width: 18%;
+	border-radius: 25px;
+	border:1px solid;
+	background:#FFA138;
+
+}
+/*-------Img---------*/
+#img1{
+	position:absolute;
+	top: 50%;
+	left: 45%;
+	height:18%;
+	width: 18%;
+	z-index: 10;
+	opacity: .9;
+}
+#img2{
+	position:absolute;
+	top: 65%;
+	left: 47%;
+	height:18%;
+	width: 18%;
+	z-index: 20;
+	opacity:.9;
+}
+
+/*--------Footer----------*/
+footer{
+	position: absolute;
+	width:75%;
+	top: 90%;
+	margin-left: 40%;
+	margin-top: 20px;
+}
+

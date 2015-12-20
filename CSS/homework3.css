@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+/*-------General------------*/
+.container{
+	width:75%;
+	margin:0 auto;
+}
+p{
+	font-size: 16pt;
+	font-family: helvetica, sans-serif;
+
+}
+body{
+	background:#88CC88;
+}
+/*-------Nav list----------*/
+.nav-list{
+	list-style: none;
+	float:left;
+	margin-left: 30%;
+}
+.nav-list li{
+	float: left;
+	margin-left: 15px;
+	background: #55AA55;
+
+}
+.nav-list li a {
+	text-decoration:none; 
+}
+
+.nav-list li a:hover{
+	font-size: 20pt;
+	background:#D46A6A;
+}
+
+/*-------Table------------*/
+table{
+	border:1px solid;
+	background:#88CC88;
+
+}
+
+table tr th{
+	border:1px solid;
+
+}
+
+table tr th a{
+	text-decoration: none;
+}
+#table-head{
+	font-size: 24pt;
+	font-family: 'Pacifico', cursive;
+	background:#FFAAAA;
+}
+
+#table-footer{
+	font-family: 'Pacifico', cursive;
+	background:#FFAAAA;
+}
+#table-subhead{
+	font-family: 'Pacifico', cursive;
+	
+}
+/*--------Footer----------*/
+footer{
+	width:75%;
+	margin-left: 40%;
+	margin-top: 20px;
+}
+

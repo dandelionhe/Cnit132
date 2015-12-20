@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Design portfolio html css">
+        <script src="http://code.jquery.com/jquery-1.10.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/homework9.css">
+        <script src='../js/homework9.js'></script>
+        
+        <title>Homework 9</title>
+    </head>
+    <body onload='writeMsg()'>
+        <nav class="container">
+            <ul class='nav-list'>
+                <li><a href="../index.html">Hw1</a></li>
+                <li><a href="../hw2/homework2.html">Hw2</a></li>
+                <li><a href="../hw3/homework3.html">Hw3</a></li>
+                <li><a href="../hw4/homework4.html">Hw4</a></li>
+                <li><a href="../hw5/homework5.html">Hw5</a></li>
+                <li><a href="../hw6/homework6.html">Hw6</a></li>
+                <li><a href="../hw7/homework7.html">Hw7</a></li>
+                <li><a href="../hw8/homework8.html">Hw8</a></li>
+                <li><a href="../hw9/homework9.html">Hw9</a></li>
+            </ul>
+        </nav>
+        <br><br><br>
+        <p id='msg'>Attack on Titans</p>
+        <br>
+        <br>
+        <div>
+        <img src="../Images/before.gif" id='hero' alt="Before Titans" onmouseover='switchImage()' onmouseout='restoreImage()'>
+        </div>
+        <div id='rightpart'>
+            <fieldset>
+                <legend>Questions.</legend>
+                <p>Who is the person on the right side?</p>
+                <p><a onclick='alert("It is Eren Yeager!")'>Answer</a></p>
+                <hr>
+                <form>
+                <label for='answer'>How can he turn into Titan?</label>
+                <br>
+                <input type="text" size='10' name='answer' title='Remember he had to bite his finger before he turn into titan?'>
+                <input type="button" onclick='checkanswer(form.answer.value.toLowerCase())' value="CheckAnswer" >
+                </form>
+                <hr>
+                <form name='resources'>
+                    <select name="reslist" id="reslist">
+                        <option value="#">----Select------</option>
+                        <option value="https://en.wikipedia.org/wiki/Attack_on_Titan">Wiki</option>
+                        <option value="https://www.youtube.com/watch?v=InF16sp7J0M">youtube</option>
+                        <option value="http://www.crunchyroll.com/attack-on-titan">Crunchroll</option>
+                        <option value="http://www.imdb.com/title/tt2560140/">IMDD</option>
+                    <input type="button" value="Go!" onclick='goto()'>
+                    </select>
+                </form>
+                <hr>
+            </fieldset>
+            <fieldset>
+                    <legend>Password Protect Page</legend>
+                    <p><a href="password.html">Go to Homework 8, but you need to input a password.</a></p>
+            </fieldset>
+            <fieldset>
+                <legend>New window and Fade Text</legend>
+                <p id='fadetext'>Do you want to know more about the story?<a href="#" onclick="newwindow('http://fenglee.com/game/aog/')">Check here!</a></p>
+                <button type='button'>Click to fade out the text above!</button>
+            </fieldset>
+        </div>
+ 
+    
+   
+   
+        
+        
+        <footer>
+            <a href="mailto:hyongzhe@mail.ccsf.edu">Email Me</a>
+            <a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px" src="../Images/html5.gif" alt="HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
+            <br>
+            <br>
+            <script type="text/javascript">
+                var dateModified = document.lastModified;
+                mydate = dateModified.slice(0,16);
+                document.write("Last updated: " + mydate);
+            </script>
+        </footer>
+    </body>
+</html>

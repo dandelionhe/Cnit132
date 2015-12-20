@@ -1,0 +1,65 @@
+/*-----General------------*/
+body{
+	color:#777;
+	background:#dadada;
+}
+.container{
+	max-width: 900px;
+	margin:0 auto;
+}
+/*-------Nav List---------*/
+
+.nav-list{
+	float:right;
+	list-style: none;
+}
+
+.nav-list a{
+	text-decoration: none;
+
+}
+
+.nav-list a:hover{
+	font-size: 30px;
+	color:#0d4d4d;
+}
+
+.nav-list li{
+	float:left;
+	margin:5px 15px 0 15px;
+
+}
+
+/*--------Header---------*/
+header h1, header h4{
+	text-align: center;
+}
+header h4{
+	color:#e46965;
+}
+
+/*-------selfintro-------*/
+.half{
+	width:50%;
+	float:left;
+}
+.middle{
+	padding: 0 0 0 400px;
+}
+section img{
+
+	margin: 5px 0 10px 0;
+}
+section p{
+
+	font-size: 30px;
+	font-family: arial,helvetica,sans-serif;
+}
+
+/*------footer----------*/
+footer{
+	text-decoration: none;
+	margin:10px;
+	text-align: center;
+}
+
